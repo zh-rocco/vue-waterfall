@@ -1,16 +1,21 @@
-```javascript
-const scrollTop =
-  window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-const scrollLeft =
-  window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft;
+# vue-waterfall
+
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+yarn
+
+# serve with hot reload at localhost:8080
+yarn serve
+
+# build for production with minification
+yarn build
+
+# build for production and view the bundle analyzer report
+yarn build --report
 ```
 
-| API                                  | Chrome 68 | IE 11 | EDGE 42 |
-| :----------------------------------- | :-------: | :---: | :-----: |
-| `window.pageYOffset`                 |   true    | true  |  true   |
-| `document.documentElement.scrollTop` |   true    | true  |  false  |
-| `document.body.scrollTop`            |   false   | false |  true   |
-
-## 参考
-
-- [Window.scrollY - MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/scrollY)
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
