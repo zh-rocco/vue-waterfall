@@ -11,7 +11,7 @@
            :class="`column-${i}-${j}`">
         <img class="image"
              :src="item.image">
-        <h4>{{ i + j * column }}</h4>
+        <h4>{{ i + j * column + 1 }}</h4>
       </div>
     </div>
   </div>
@@ -34,7 +34,7 @@ export default class Waterfall extends Vue {
   private column!: number;
 
   //  ['20%', '40%', '20%', '20%']
-  @Prop({ type: Array, default: () => ['20%', '40%', '20%', '20%'] })
+  @Prop({ type: Array, default: () => ['25%', '25%', '25%', '25%'] })
   private widths!: string[];
 
   @Prop({ type: String, default: '8px' })

@@ -1,23 +1,18 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div id="nav">
+      <router-link to="/waterfall">waterfall</router-link> |
+      <router-link to="/masonry">masonry</router-link>
     </div>
-    <router-view/> -->
-
-    <demo></demo>
+    <router-view />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import Demo from '@/example/index.vue';
 
 export default Vue.extend({
   name: 'App',
-
-  components: { Demo },
 });
 </script>
 

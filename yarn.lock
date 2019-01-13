@@ -7082,6 +7082,11 @@ vue-loader@^15.4.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-masonry-css@^1.0.3:
+  version "1.0.3"
+  resolved "http://registry.npm.taobao.org/vue-masonry-css/download/vue-masonry-css-1.0.3.tgz#a5e7bb248570eeedcd358637d3f1f4fc7f0c5f86"
+  integrity sha1-pee7JIVw7u3NNYY30/H0/H8MX4Y=
+
 vue-property-decorator@^7.3.0:
   version "7.3.0"
   resolved "http://registry.npm.taobao.org/vue-property-decorator/download/vue-property-decorator-7.3.0.tgz#d50d67f0b0f1c814f9f2fba36d6eeccbcc62dbb6"
