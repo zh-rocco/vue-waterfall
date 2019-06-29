@@ -1,5 +1,7 @@
 # vue-waterfall
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zh-rocco/vue-waterfall.svg)](https://greenkeeper.io/)
+
 > A Vue.js project
 
 ## Build Setup
